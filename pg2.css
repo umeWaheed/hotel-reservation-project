@@ -1,0 +1,101 @@
+body{
+    background: url("images/back.jpg") no-repeat center center fixed;
+    background-size:cover;
+    margin: 1%;
+}
+
+.content{
+    background-color: #5C7FB5;
+}
+
+.head{
+
+}
+/*.row2{
+    background-color: #EDD192;
+    padding:2%;
+    margin-top: 5%;
+    border: 0.3em solid white;
+}*/
+
+.row1{
+    margin: 0;
+    margin-top: 2%;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    text-align: center;
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rating{
+    color: red;
+}
+
+.hotel-img{
+   height: 10em;
+   width: 15em;
+   margin-top: 5%;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.arrow img{
+    width:8em;
+    height: 8em;
+}
+
+.img{
+    margin-right: 2%;
+}
+
+h3{
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.right{
+    margin-left:40%;
+}
+
+.price{
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.pnl{
+    background-image: url("images/back.jpg");
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.list-group-item-heading, .panel-heading{
+    color: white;
+    font-size: 1.3em;
+    background-color: #5C7FB5;
+    padding: 1%;
+}
+
+.r3{
+    margin-top:5%;
+    background-color: #EDD192;
+    padding: 3%;
+    border: 0.3em groove wheat;
+}
+
+.page{
+    margin-left: 45%;
+}
+
+.footer{
+    background-color: #5C7FB5;
+}

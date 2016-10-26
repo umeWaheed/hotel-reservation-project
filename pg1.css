@@ -1,0 +1,115 @@
+body{
+    background: url("images/back.jpg") no-repeat center center fixed;
+   background-size: cover;
+   /*width: 100%;
+    height: auto;*/
+}
+
+.head{
+    text-align: center;
+}
+
+.title{
+    margin: 5%;
+}
+
+.menu ul{
+    list-style-type:none;
+    font-size: 1.3em;
+    margin-bottom: 3%;
+}
+
+.menu ul li{
+    display: inline;
+    padding-right: 5%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.menu li a:hover{
+    color: #0f0f0f;
+}
+
+.book div.col-md-3{
+    background-color: rgba(200,177,136,0.3);
+    height: 15em;
+    margin:3%;
+    border: 0.3em solid white;
+}
+
+.book div h3{
+    margin-bottom: 15%;
+}
+
+.login{
+    padding-top: 4%;
+}
+
+.login ul li a{
+    color:white;
+}
+
+.login ul li a:hover{
+    background-color: transparent;
+    color: #0f0f0f;
+}
+.sub-btn{
+    font-size: 1.3em;
+    background-color: rgba(179,163,184,0.4);
+    border: 0.2em solid white;
+    padding: 1%;
+    color: white;
+    margin-left: 5%;
+}
+.footer{
+  margin-top:10% ;
+    background-color: rgba(200,177,136,0.3);
+}
+
+.hot{
+    margin-top: 13%;
+    /*transform: skewY(15deg);*/
+    background-color: #EDD192;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 1.7em;
+    padding: 5%;
+}
+
+.hot p{
+    transform: skewY(0deg);
+}
+
+.contact{
+    background-color: #5C7FB5;
+    padding: 2%;
+}
+.address{
+    border-right: 0.15em solid white;
+}
+.feedback input,.feedback textarea{
+    background-color: inherit;
+    border: 0.2em solid white;
+    margin: 1%;
+}
+.social{
+    margin-top:5%;
+    list-style-type: none;
+    border-top: 0.15em dashed white;
+    border-bottom: 0.15em dashed white;
+    padding: 2%;
+    text-align: center;
+}
+
+.social li{
+    display: inline;
+    padding-left: 4%;
+}
+
+.social img{
+    width:22px;
+    height: 22px;
+}
