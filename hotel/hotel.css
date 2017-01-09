@@ -1,0 +1,128 @@
+body {
+    background: url("../images/back.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+/*
+.portion{
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    height: 40em;
+    margin:3.5%;
+    border: 0.3em dotted goldenrod;
+    width:25em;
+    float: left;
+    display: inline;
+    padding:8px;
+
+}
+.portion img{
+    border:0.2em solid goldenrod;
+}
+*/
+
+.portion1{
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    height: 40em;
+    margin-top:3.5%;
+    border: 0.3em dotted goldenrod;
+    width:25em;
+    margin-left:5%;
+    padding: 8px;
+    float: left;
+    display: inline;
+
+}
+.portion1 img{
+    border:0.2em solid goldenrod;
+    width:280px;
+    height:250px;
+}
+
+
+#top{
+    /*width:1450px;*/
+    height:500px;
+    padding: 0;
+    /*position: relative;*/
+    background-image:url("../images/top.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#topwrite {
+
+    margin-top: 200px;
+    margin-left: 430px;
+    height: 20em;
+    width: 40em;
+    padding: 5px;
+    display: inline;
+    position: absolute;
+
+}
+#blurr{
+    background-color: rgba(0,0,0,0.6);
+    /*width:1450px;*/
+    height:150px;
+    filter: alpha(opacity=60);
+    margin:0;
+    padding: 3px;
+}
+
+.black img{
+    height:40px;
+    width: 40px;
+}
+#explore{
+    color:goldenrod;
+}
+.jumbotron {
+    border: 1px solid white;
+    background-color: rgba(200, 177, 136, 0.8);
+    color: #fff;
+}
+
+.logo-small {
+    color:goldenrod;
+    font-size: 50px;
+}
+
+.col-sm-3 a {
+    color:goldenrod;
+    background-color: transparent;
+}
+
+.col-sm-3 a:hover {
+    color:white;
+    background-color: transparent;
+}
+
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.portion1 h6{
+    color:goldenrod;
+
+}
+.portion h6{
+    color:goldenrod;
+
+}
+.col-md-3 a {
+    color:white;
+    background-color: transparent;
+}
+
+.col-md-3 a:hover {
+    color:goldenrod;
+    background-color: transparent;
+}
+
+.footer{
+    margin-left: 45%;
+    margin-top:5%;
+}

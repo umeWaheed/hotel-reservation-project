@@ -1,0 +1,119 @@
+body {
+    background: url("../images/back.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title{
+    padding: 1%;
+    border-bottom: 0.3em dotted black;
+    background-color: rgb(200, 177, 136);
+}
+.title a{
+    color:black;
+    text-align: left;
+    text-decoration: none;
+}
+
+.title img{
+    width:10em;
+}
+
+.col-md-3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: goldenrod;
+    border-right: 6px dotted goldenrod;
+    border-bottom: 6px dotted goldenrod;
+    height: 700px;
+
+    top:0;
+    left:0;
+
+}
+.col-md-3 h1 {
+    margin-left: 45px;
+}
+.col-md-3 p{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#history{
+    margin:50px;
+    padding:10px;
+    border-bottom:2px solid goldenrod;
+    background-color: rgba(0, 0, 0, 0.4);
+    color:white;
+}
+#history p{
+
+    margin-left: 15px;
+
+
+}
+#history img{
+    width:150px;
+    heigth:150px;
+    float:left;
+    margin-right:15px;
+
+}
+#history h3{
+    color:goldenrod;
+}
+#map{
+    border: 0.1em solid goldenrod;
+    margin:50px;
+}
+#map h3{
+    color:goldenrod;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin:0;
+    padding: 1%;
+}
+
+.container {
+    padding: 80px 120px;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.p1{
+    margin-left: 42%;
+    margin-top: 5em;
+}
+
+.portion1{
+    color:white;
+    background-color:transparent;
+    height: 20em;
+    margin-left:3.5%;
+    margin-top:3.5%;
+    width:25em;
+    padding: 8px;
+    float: left;
+    display: inline;
+
+}
+.portion1 img{
+    width:280px;
+    height:250px;
+    border:0.2em solid goldenrod;
+}
+a {
+    color:white;
+    text-align: center;
+    text-decoration: none;}

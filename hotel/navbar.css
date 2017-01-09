@@ -1,0 +1,26 @@
+.menu{
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+}
+
+.menu ul{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.menu a{
+    color: goldenrod;
+    font-size: 1.15em;
+}
+.navbar .nav  li a:hover{
+    background-color: transparent;
+    color:white;
+    font-weight: bold;
+}
+.navbar-brand img{
+    padding-top:0;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+    width:5em;
+    height: 5em;
+}

@@ -1,0 +1,65 @@
+body
+{
+    background: url("../images/back.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+.form,.quote{
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid goldenrod;
+    padding: 2%;
+}
+
+.form{
+    color: white;
+    margin: 5%;
+    width: 20em;
+}
+
+.form input,.form button{
+    margin-bottom:4%;
+}
+
+.quote{
+    margin: 4%;
+    font-family: "Lucida Calligraphy",sans-serif;
+    font-size: 3em;
+    color:floralwhite;
+}
+/*li+li { border-left: 1px solid #000000 }
+.logo{
+    color:deepskyblue ;
+}
+.logo {
+    text-align: left;
+}
+.form-inline div
+{
+    margin:1%;
+}
+form .form-control
+{
+    background-color: lightblue;
+}
+
+.button
+{
+
+    top: 25%;
+    left: 35%;
+    right:20%;
+    padding:5%;
+
+
+    float: left;
+    margin: 3%;
+}
+
+
+
+
+.button2{
+    margin-right:80px;
+
+    padding:8%;
+}*/

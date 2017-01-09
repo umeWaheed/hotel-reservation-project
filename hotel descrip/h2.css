@@ -1,0 +1,101 @@
+body {
+    background: url('../images/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height:1500px;
+    width:1450px;
+}
+
+.nav1{width:1450px;
+background-color: firebrick;
+padding: 0;
+margin: 0;}
+
+#name{
+
+    width:1450px;
+    height:150px;
+    background-color: black;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+#name h1,h2{
+    text-align: center;
+    font-family: Calibri;
+
+}
+#name h2{
+    color: firebrick;
+}
+#name h1{
+    color:goldenrod;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:firebrick;
+    background-size:auto;
+    list-style:none;
+    white-space: nowrap;
+    width:1500em;
+
+}
+
+
+li {
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:goldenrod;
+}
+
+.active {
+    background-color:darkgoldenrod;
+}
+.back{
+    background-color:goldenrod;
+}
+.portion{
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    height: 30em;
+    margin:3.5%;
+    border: 0.3em dotted goldenrod;
+    width:25em;
+    float: left;
+    display: inline;
+    padding:8px;
+
+}
+.portion img{
+    border:0.2em solid goldenrod;}
+
+.portion1{
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    height: 30em;
+    margin:3.5%;
+    border: 0.3em dotted goldenrod;
+    width:25em;
+    margin-left:75px;
+    padding: 8px;
+    float: left;
+    display: inline;
+
+}
+.portion1 img{
+    border:0.2em solid goldenrod;
+}

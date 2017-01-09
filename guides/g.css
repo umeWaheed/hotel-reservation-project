@@ -1,0 +1,72 @@
+body{
+
+    background: url("../images/back.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+.m1
+{
+    text-align: center;
+    color:gold;
+    font-style: italic;
+    font-size:40px;
+
+}
+.m2 {
+    text-align: center;
+    color: seagreen;
+    font-style: italic;
+
+
+}
+.radio{
+
+    right:25%;
+
+    color:black;
+}
+.rad{
+    color: black;
+
+    right:40%;
+}
+
+.mac
+{
+    right:45%;
+
+    color:black;
+
+}
+.bag{
+    color:black;
+}
+
+.r3 img {
+
+    border: 2px solid;
+    border-color: gold;
+    border-radius: 4px;
+    padding: 3px;
+    float:right;
+    position:absolute;
+
+
+}
+h3
+{
+    color:seagreen;
+}
+.containertext
+{
+    color:gold;
+    font-style: italic;
+}
+
+.checkbox
+{
+    padding: 1%;
+    margin: 5%;
+    right:20%;
+}
+

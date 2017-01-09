@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Special Occasions</title>
+    <link rel="stylesheet" href="../../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="pg3.css">
+    <link rel="stylesheet" href="../navbar.css">
+</head>
+<body>
+<!--div class="container-fluid"-->
+    <div class="menu">
+        <a href="../home%20page/page1.html" class="navbar-brand"><img src="../images/logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="../home%20page/page1.html">Home</a></li>
+                <li><a href="../hotel/hotel.html">Hotels</a></li>
+                <li><a href="../location/location.html">Discover</a></li>
+                <li><a href="../guides/guides.html">Guides</a></li>
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+                <li><a href="../special%20occasions/page3.html">Special events</a></li>
+            </ul>
+        </nav>
+    </div>
+<!--div class="head">
+    <div class="title">
+        <a href="../home%20page/page1.html"><img src="../images/logo.png" alt="logo"></a>
+    </div>
+</div-->
+
+    <div class="sp">
+        <h2>Special Occasions</h2>
+    </div>
+
+    <?php
+    $query = 'select * from special_occ';
+    $result = mysqli_query($conn,$query) or die (',error querying');
+    while($row = mysqli_fetch_array($result)){
+    ?>
+    <div class="row r1">
+        <div class="col-md-4">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>
+                        <?php
+                        echo $row['occ'];
+                        ?>
+                    </h3>
+                    <small>
+                        <?php
+                        echo $row['duration'];
+                        ?>
+                    </small>
+                </div>
+                <div class="panel-body">
+                    <img src="<?php echo $row['image'] ?>" alt="Shopping">
+                </div>
+                <div class="panel-footer">
+                    <a href="http://www.dubaishoppingfestival2013.com/">View Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>Dubai Marathon</h3>
+                    <small>Jan-Feb</small>
+                </div>
+                <div class="panel-body">
+                    <img src="https://www.dubai.com/media/public/waleed/Dubai-Marathon_.jpg" alt="Shopping">
+                </div>
+                <div class="panel-footer">
+                    <a href="http://www.dubaimarathon.org/">View Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>Dubai Desert Classic</h3>
+                    <small>Feb-March</small>
+                </div>
+                <div class="panel-body">
+                    <img src="https://www.dubai.com/media/public/waleed/dubai-dessert-classic_.jpg" alt="Shopping">
+                </div>
+                <div class="panel-footer">
+                    <a href="https://dubaidesertclassic.com/">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row r1">
+    <div class="col-md-4">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3>UAE Desert Challenge</h3>
+                <small>Feb-March</small>
+            </div>
+            <div class="panel-body">
+                <img src="https://www.dubai.com/media/public/waleed/1654864_600_.jpg" alt="Shopping">
+            </div>
+            <div class="panel-footer">
+                <a href="http://abudhabidesertchallenge.com/">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3>Jazz Festival</h3>
+                <small>Feb-March</small>
+            </div>
+            <div class="panel-body">
+                <img src="https://www.dubai.com/media/public/waleed/Dubai-International-Jazz-Festival_.jpg" alt="Shopping">
+            </div>
+            <div class="panel-footer">
+                <a href="http://www.dubaijazzfest.com/">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3>Tennis Championnships</h3>
+                <small>Feb-March</small>
+            </div>
+            <div class="panel-body">
+                <img src="https://www.dubai.com/media/public/waleed/Dubai_Tennis_Open_2014_Semi_Final_.JPG" alt="Shopping">
+            </div>
+            <div class="panel-footer">
+                <a href="#">View Details</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <ul class="pagination page">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+    </ul>
+    <!--/div-->
+</body>
+</html>

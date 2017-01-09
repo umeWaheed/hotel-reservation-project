@@ -1,0 +1,32 @@
+.heading h2{
+    border-top: 0.1em solid goldenrod;
+    border-bottom: 0.1em solid goldenrod;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    text-transform: uppercase;
+    color: goldenrod;
+    margin:0;
+}
+
+.heading{
+    padding: 0;
+    margin-bottom:5%;
+}
+
+.b1{
+    margin-left:7%;
+}
+
+.table-responsive{
+    width:80%;
+    margin-left:10%;
+}
+.table tbody th{
+    background-color: goldenrod;
+    color:black;
+}
+
+.table tbody tr{
+    background-color: rgba(0,0,0,0.6) ;
+    color: goldenrod;
+}
